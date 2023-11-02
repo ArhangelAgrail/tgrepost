@@ -9,7 +9,7 @@ from aiogram.filters import CommandStart, Command
 
 
 logger = logging.getLogger(__name__)
-argTo = -4090486317
+argTo = -1001089043937
 
 async def main():
     logging.basicConfig(
@@ -41,7 +41,7 @@ async def main():
     async def forward_message(message: types.Message):
         await message.forward(argTo)
 
-    dp.include_router(echo.router)
+    
 
     await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
