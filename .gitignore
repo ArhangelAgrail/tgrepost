@@ -5,4 +5,4 @@
 /.env
 /env
 *.pyc
-/.vs/VSWorkspaceState.json
+/.vs/
